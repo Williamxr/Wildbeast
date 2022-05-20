@@ -5,3 +5,5 @@
 ## Sobre
 
 🐻 O projeto Wild Beast é um site fictício sobre animais selvagens.
+
+🚩 Todo o site é desenvolvido com display <b>GRID</b>.
