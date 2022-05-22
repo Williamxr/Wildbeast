@@ -1,0 +1,16 @@
+body, p, h1, ul, li, blockquote{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Volkorn', Georgia, serif ;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
