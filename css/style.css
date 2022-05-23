@@ -17,6 +17,8 @@ a{
 
 img{
   max-width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 
 /*Grid geral*/
@@ -93,13 +95,24 @@ img{
   background: #b07dfb;
 }
 
+/*Content*/
+
 .content{
   grid-area: content;
 }
 
+/*Anúncios*/
+
 .anuncios{
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: flex-start;
+  padding: 30px;
+  grid-gap: 30px;
 }
+
+/*Footer*/
 
 .footer{
   grid-area: footer;
