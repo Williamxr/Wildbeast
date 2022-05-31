@@ -94,22 +94,51 @@ img{
 
 .contato{
   grid-area: contato;
-  margin-top: 1em;
-  border-radius: 5px 5px 0 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 5px;
+  color: white;
 }
 
+.contato-formulario{
+  padding: 60px;
+}
 
-/*Anúncios*/
-
-.anuncios{
-  grid-area: anuncios;
-  background: #fafbfc;
+.form{
   display: grid;
-  align-content: start;
-  padding: 30px;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
 }
+
+.form label{
+  display: block;
+  font: 600 1.125rem/1.5 'Volkorn', Georgia, serif;
+  margin-bottom: 5px;
+}
+
+.form input[type='text'], .form input[type='email'], .form textarea{
+  font: 400 1rem/1.5 serif;
+  background: #d7d7da;
+  border: 1px solid #b0b0b1;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type='text']:focus, .form input[type='email']:focus, .form textarea:focus{
+  outline: none;
+  border-color: #eae8ec;
+  background: #d2cadf;
+  box-shadow: 0 0 0 2px blue;
+}
+
+.botao{
+  max-width: 200px;
+  justify-self:  center;
+  padding: 10px;
+  margin: 15px auto
+}
+
 
 /*Footer*/
 
