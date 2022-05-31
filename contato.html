@@ -24,7 +24,7 @@
       <nav>
         <ul>
           <li><a href="./index.html">início</a></li>
-          <li><a href="#">animais</a></li>
+          <li><a href="./animais.html">animais</a></li>
           <li><a href="./contato.html">contato</a></li>
         </ul>
       </nav>
@@ -32,38 +32,30 @@
 
     <div class="contato" id="contato">
       <section class="contato-dados" aria-label="Formulário">
-        <h2 class="titulo-contato">Nosso contato</h2>
-        <form class="form" action="./contato.html">
-          <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="(**) *****-****">
-          </div>
-          <div>
-            <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" placeholder="Nome completo">
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="email@email.com">
-          </div>
-          <div>
-            <label for="nome">Mensagem</label>
-            <textarea rows="5" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
-          </div>
-          <button>Enviar mensagem</button>
-        </form>
+        <div class="contato-formulario">
+          <h2 class="titulo-contato">Nosso contato</h2>
+          <form class="form" action="./contato.html">
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder='Nome Completo'>
+            </div>
+            <div>
+              <label for="telefone">Telefone</label>
+              <input type="text" id="telefone" name="telefone" placeholder="(**) *****-****">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="email@email.com">
+            </div>
+            <div>
+              <label for="nome">Mensagem</label>
+              <textarea rows="5" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <button class="botao">Enviar mensagem</button>
+          </form>
+        </div>
       </section>
     </div>
-
-    <aside class="anuncios">
-      <div class="anuncio-item" alt=" descricao anuncio">
-        <img src="img/anuncio-1.jpg">
-      </div>
-
-      <div class="anuncio-item" alt=" descricao anuncio">
-        <img src="img/anuncio-2.jpg">
-      </div>
-    </aside>
 
     <footer class="footer">
       <p>Origamid © 2012 - 2017. Alguns direitos reservados.</p>
