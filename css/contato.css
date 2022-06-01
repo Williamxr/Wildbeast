@@ -94,10 +94,11 @@ img{
 
 .contato{
   grid-area: contato;
-  width: 900px;
+  width: clamp(200px, 75%, 700px);
   margin: 20px auto;
   border-radius: 5px;
   color: white;
+
 }
 
 .contato-formulario{
