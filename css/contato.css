@@ -155,6 +155,7 @@ img{
   .contato{
     grid-template-columns: auto;
     width: clamp(300px, 75%, 350px);
+    display: block;
     margin: 20px auto;
     border-radius: 5px;
     color: white;
