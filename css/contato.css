@@ -151,6 +151,17 @@ img{
   background: #8844ee;
 }
 
+@media(max-width:400px){
+  .contato{
+    grid-template-columns: auto;
+    width: clamp(300px, 75%, 350px);
+    margin: 20px auto;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+  }
+}
+
 
 /*Footer*/
 
