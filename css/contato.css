@@ -98,7 +98,7 @@ img{
   margin: 20px auto;
   border-radius: 5px;
   color: white;
-
+  box-sizing: border-box;
 }
 
 .contato-formulario{
