@@ -33,6 +33,28 @@ img{
   ;
 }
 
+@media(max-width:1000px){
+  .estrutura{
+    grid-template-columns: minmax(160px, 1fr) 3fr;
+    grid-template-areas: 
+    'header header'
+    'contato contato'
+    'footer footer'
+    ;
+  }
+}
+
+@media(max-width:760px){
+  .estrutura{
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    'header'
+    'contato'
+    'footer'
+    ;
+  }
+}
+
 /*Header*/
 
 .header{
