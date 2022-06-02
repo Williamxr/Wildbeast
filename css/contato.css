@@ -99,6 +99,8 @@ img{
   border-radius: 5px;
   color: white;
   box-sizing: border-box;
+  display: grid;
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, .2);
 }
 
 .contato-formulario{
@@ -151,6 +153,13 @@ img{
   background: #8844ee;
 }
 
+
+@media(max-width:800px){
+  .contato{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 
 /*Footer*/
 
