@@ -142,7 +142,7 @@ img{
 
 .form input[type='text'], .form input[type='email'], .form textarea{
   font: 400 1rem/1.5 serif;
-  background: #d7d7da;
+  background: #ececf7;
   border: 1px solid #b0b0b1;
   padding: 12px;
   border-radius: 5px;
