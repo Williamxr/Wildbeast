@@ -1,0 +1,34 @@
+body, p, h1, ul, li, blockquote{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Volkorn', Georgia, serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+/*Grid geral*/
+
+.estrutura{
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-template-areas: 
+  'header header header'
+  'sidenav content anuncios'
+  'footer footer footer'
+  ;
+}
