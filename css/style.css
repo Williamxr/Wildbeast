@@ -342,5 +342,17 @@ p{
 }
 
 .js-tabcontent section.ativo{
-  display: block !important;
+  display: grid !important;
+  animation: show .5s forwards;
+}
+
+@keyframes show{
+  from{
+    opacity: 0;
+    transform: translate3d(-80px, 0, 0);
+  }
+  to{
+    opacity: 2;
+    transform: translate3d(0, 0, 0);
+  }
 }
