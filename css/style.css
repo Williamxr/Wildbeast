@@ -336,3 +336,11 @@ p{
   text-align: center;
   padding: 30px;
 }
+
+.js-tabcontent section{
+  display: none;
+}
+
+.js-tabcontent section.ativo{
+  display: block !important;
+}
