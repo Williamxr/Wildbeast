@@ -337,7 +337,7 @@ p{
   padding: 30px;
 }
 
-.js-tabcontent section{
+.js .js-tabcontent section{
   display: none;
 }
 
