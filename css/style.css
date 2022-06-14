@@ -284,6 +284,7 @@ p{
   max-width: 20em;
 }
 
+
 .citacao, .atributos{
   align-self: start;
   padding: 30px;
@@ -311,6 +312,7 @@ p{
 .atributos li + li{
   border-top: 2px solid #b07dfb;
 }
+
 
 /*Anúncios*/
 
