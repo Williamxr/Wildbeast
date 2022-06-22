@@ -10,6 +10,8 @@
 
 📱 Site totalmente responsivo
 
+## Tecnologias utilizadas
+
 <h1 align='center' >
 <img src='https://ik.imagekit.io/Willx/wild_vDpl7zliz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1653076757357'>
 </h1>
