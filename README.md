@@ -24,3 +24,6 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 <img src='https://ik.imagekit.io/Willx/wild_vDpl7zliz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1653076757357'>
 </h1>
 
+🐅 Wildbeast é um site onde o usuário pode ler informações e curiosidades sobre alguns tipos de animais.
+
+🐆 O intuito do projeto foi treinar minhas habilidades de CSS utilizando o display grid, além disso ainda implementei algumas funcionalidades de click com JavaScript
