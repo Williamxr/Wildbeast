@@ -1,5 +1,3 @@
-🚧 <h2>Projeto em construção</h2>
-
 <h1 align='center'> Wild Beast</h1>
 
 ## Sobre
@@ -25,3 +23,4 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 <h1 align='center' >
 <img src='https://ik.imagekit.io/Willx/wild_vDpl7zliz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1653076757357'>
 </h1>
+
