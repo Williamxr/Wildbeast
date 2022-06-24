@@ -2,7 +2,7 @@
 
 ## Sobre
 
-🐻 O projeto Wild Beast é um site fictício sobre animais selvagens.
+🐻 O projeto [Wildbeast](https://williamxr.github.io/Wildbeast/) é um site fictício sobre animais selvagens.
 
 🚩 Todo o site é desenvolvido com display <b>GRID</b>.
 
@@ -26,4 +26,4 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 
 🐅 Wildbeast é um site onde o usuário pode ler informações e curiosidades sobre alguns tipos de animais.
 
-🐆 O intuito do projeto foi treinar minhas habilidades de CSS utilizando o display grid, além disso ainda implementei algumas funcionalidades de click com JavaScript
+🐆 O intuito do projeto foi treinar minhas habilidades de CSS utilizando o display grid, além disso ainda implementei algumas funcionalidades com JavaScript.
