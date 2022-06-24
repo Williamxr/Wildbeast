@@ -14,6 +14,8 @@
 
 ## Tecnologias utilizadas
 
+O projeto foi desenvolvido usando as seguintes tecnologias:
+
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 - [JavaScript](https://www.javascript.com/)
