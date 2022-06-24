@@ -14,6 +14,10 @@
 
 ## Tecnologias utilizadas
 
+- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+
+
 ---
 
 <h1 align='center' >
